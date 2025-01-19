@@ -41,11 +41,12 @@ export default function Hero() {
                 <div
                   className="absolute inset-0 -z-10 rounded-lg border-4 border-red-500 rugged-border"
                 ></div>
-                <img
-                  src="https://www.toyotaofclermont.com/blogs/6088/wp-content/uploads/2024/10/Clermont-Toyota-auto-parts-tips-1024x511.jpg"
-                  alt="High-performance auto part"
-                  className="rounded-lg shadow-lg max-w-[600px] h-auto"
-                />
+               <img
+  src="https://www.toyotaofclermont.com/blogs/6088/wp-content/uploads/2024/10/Clermont-Toyota-auto-parts-tips-1024x511.jpg"
+  alt="High-performance auto part"
+  className="rounded-lg shadow-lg max-w-full w-full h-auto"
+/>
+
               </div>
             </div>
           </motion.div>
