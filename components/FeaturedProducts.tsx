@@ -1,8 +1,6 @@
 'use client'
 import { motion } from 'framer-motion'
-import Image from 'next/image'
-import { Card, CardContent, CardFooter } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
+import { Card, CardContent } from "@/components/ui/card"
 
 const products = [
   { name: 'Suspension Parts', image: 'https://mypartsng.com/wp-content/uploads/Untitled-design-4.webp' },
@@ -46,9 +44,6 @@ export default function FeaturedProducts() {
                     <h3 className="text-xl font-semibold text-white mb-2">{product.name}</h3>
                     
                   </CardContent>
-                  <CardFooter>
-                    
-                  </CardFooter>
                 </motion.div>
               </Card>
             </motion.div>

@@ -23,7 +23,7 @@ export default function Footer() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            {['Home', 'Products', 'Services', 'About', 'Contact'].map((item, index) => (
+            {['Home', 'Products', 'Services', 'About', 'Contact'].map((item) => (
               <motion.div
                 key={item}
                 whileHover={{ scale: 1.1 }}

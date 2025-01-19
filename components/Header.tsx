@@ -29,7 +29,7 @@ export default function Header() {
             <span className="text-2xl font-bold text-gradient">Philotex Enterperise</span>
           </Link>
           <nav className="hidden md:flex space-x-6">
-            {menuItems.map((item, index) => (
+            {menuItems.map((item) => (
               <motion.div
                 key={item}
                 whileHover={{ scale: 1.1 }}
